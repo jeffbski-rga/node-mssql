@@ -3,8 +3,11 @@
     "name": "Patrik Simek",
     "url": "https://patriksimek.cz"
   },
-  "name": "mssql",
-  "description": "Microsoft SQL Server client for Node.js.",
+  "name": "@jeffbski-rga/mssql",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Microsoft SQL Server client for Node.js with Node.js compatible pipe supporting back pressure",
   "keywords": [
     "database",
     "mssql",

@@ -1,8 +1,10 @@
-# node-mssql
+# @jeffbski-rga/mssql
 
-Microsoft SQL Server client for Node.js
+Microsoft SQL Server client for Node.js with Node.js compatible pipe supporting back pressure
 
-[![NPM Version][npm-image]][npm-url] [![NPM Downloads][downloads-image]][downloads-url] [![Travis CI][travis-image]][travis-url] [![Appveyor CI][appveyor-image]][appveyor-url] [![Join the chat at https://gitter.im/patriksimek/node-mssql](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/patriksimek/node-mssql?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+This fork improves the Node.js stream compatibility of it's pipe capability supporting back pressure. Once the changes are accepted back into the original repo this repo will be deprecated. 
+
+https://github.com/jeffbski-rga/node-mssql
 
 Supported TDS drivers:
 - [Tedious][tedious-url] (pure JavaScript - Windows/macOS/Linux, default)
@@ -10,7 +12,7 @@ Supported TDS drivers:
 
 ## Installation
 
-    npm install mssql
+    npm install @jeffbski-rga/mssql
 
 ## Quick Example
 
